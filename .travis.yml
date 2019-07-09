@@ -5,3 +5,13 @@ r:
   - oldrel
   - release
   - devel
+
+notifications:
+  email:
+    recipients:
+    - maxime.legris@idele.fr
+    on_success: change
+    on_failure: change
+    
+git:
+  depth: 3
